@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window3" Height="772.058" Width="1047.059">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="742" Margin="-175,0,-37.2,0" Stroke="Black" VerticalAlignment="Top" Width="1253">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="D:\AGH\IiE\III semestr\PO\000 PROJEKT WYPOŻYCZALNIA\Wypożyczalnia Samochodów\bmw.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="dziekujemy" Content="Dziękujemy za skorzystanie z naszych usług!" HorizontalAlignment="Left" Height="77" Margin="499,626,0,0" VerticalAlignment="Top" Width="507" Foreground="White" FontSize="24"/>
+        <Label x:Name="czeka" Content="Twój wybrany samochód czeka już na Ciebie w naszym garażu!" HorizontalAlignment="Left" Height="73" Margin="17,142,0,0" VerticalAlignment="Top" Width="1014" Foreground="White" FontSize="36"/>
+
+    </Grid>
+</Window>
